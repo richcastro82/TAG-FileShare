@@ -8,7 +8,7 @@ $db['default'] = array(
     'hostname' => 'localhost', // Your database connection address (can be an IP or hostname)
     'username' => 'kingcastro', // The username to login with
     'password' => 'A$$tA$tic1!', // The password to login with
-    'database' => 'droppy', // The name of the database
+    'database' => 'tagup', // The name of the database
 
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
