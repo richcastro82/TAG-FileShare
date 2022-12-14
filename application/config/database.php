@@ -5,10 +5,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'hostname' => 'localhost', // Your database connection address (can be an IP or hostname)
-    'username' => 'kingcastro', // The username to login with
-    'password' => 'A$$tA$tic1!', // The password to login with
-    'database' => 'tagup', // The name of the database
+    'hostname' => 'tag-fileshare-server.mysql.database.azure.com', // Your database connection address (can be an IP or hostname)
+    'username' => 'vljbqdeuug', // The username to login with
+    'password' => 'P26E4764U3P5M2JF$', // The password to login with
+    'database' => 'tag-fileshare-database', // The name of the database
 
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
