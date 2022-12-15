@@ -13,7 +13,7 @@ $db['default'] = array(
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
     */
-    'dbdriver' => 'mysqli',
+    'dbdriver' => 'mysql',
     'dsn'	   => '',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -23,9 +23,7 @@ $db['default'] = array(
     'char_set' => 'utf8',
     'dbcollat' => 'utf8_general_ci',
     'swap_pre' => '',
-    'encrypt'  => array(
-        'ssl_ca' => realpath('/home/site/wwwroot/ssl/BaltimoreCyberTrustRoot.crt.pem'),
-        'ssl_verify' => FALSE,
+    'encrypt'  => FALSE,
     'compress' => FALSE,
     'stricton' => FALSE,
     'failover' => array(),
