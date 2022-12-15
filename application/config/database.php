@@ -13,7 +13,7 @@ $db['default'] = array(
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
     */
-    'dbdriver' => 'mysql',
+    'dbdriver' => 'mysqli',
     'dsn'	   => '',
     'dbprefix' => '',
     'pconnect' => FALSE,
