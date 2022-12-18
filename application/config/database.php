@@ -17,7 +17,7 @@ $db['default'] = array(
     'dbdriver' => 'mysql',
     'dsn' => '',
     'dbprefix' => '',
-    'pconnect' => TRUE,
+    'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
     'cache_on' => FALSE,
     'cachedir' => '',
