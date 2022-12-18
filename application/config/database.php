@@ -14,10 +14,10 @@ $db['default'] = array(
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
     */
-    'dbdriver' => 'mysqli',
+    'dbdriver' => 'mysql',
     'dsn'	   => '',
     'dbprefix' => '',
-    'pconnect' => FALSE,
+    'pconnect' => TRUE,
     'db_debug' => (ENVIRONMENT !== 'production'),
     'cache_on' => FALSE,
     'cachedir' => '',
