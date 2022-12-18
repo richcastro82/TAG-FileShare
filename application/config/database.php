@@ -9,6 +9,7 @@ $db['default'] = array(
     'username' => 'vljbqdeuug', // The username to login with
     'password' => 'P26E4764U3P5M2JF$', // The password to login with
     'database' => 'tag-fileshare-database', // The name of the database
+    'ssl_capath' => '/home/site/wwwroot/ssl/BaltimoreCyberTrustRoot.crt.pem',
 
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
@@ -23,7 +24,7 @@ $db['default'] = array(
     'char_set' => 'utf8',
     'dbcollat' => 'utf8_general_ci',
     'swap_pre' => '',
-    'encrypt'  => FALSE,
+    'encrypt'  => TRUE,
     'compress' => FALSE,
     'stricton' => FALSE,
     'failover' => array(),
