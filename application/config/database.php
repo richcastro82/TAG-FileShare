@@ -9,12 +9,12 @@ $db['default'] = array(
     'username' => 'vljbqdeuug', // The username to login with
     'password' => 'P26E4764U3P5M2JF$', // The password to login with
     'database' => 'tag-fileshare-database', // The name of the database
-    'MYSQL_CLIENT_SSL' => '/home/site/wwwroot/ssl/BaltimoreCyberTrustRoot.crt.pem',
+    'MYSQL_CLIENT_SSL' => 'DigiCertGlobalRootCA.crt.pem',
 
     /*
     !!! Do not edit anything below without knowing what you're doing !!!
     */
-    'dbdriver' => 'mysql',
+    'dbdriver' => 'mysqli',
     'dsn' => '',
     'dbprefix' => '',
     'pconnect' => FALSE,
